@@ -1,0 +1,9 @@
+{
+    "template": "widget_members_online",
+    "description": "Add permission check to widget_members_online",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$options.staffOnline\">",
+    "replace": "<xf:if is=\"$options.staffOnline && $xf.visitor.canViewStaffOnline()\">"
+}
