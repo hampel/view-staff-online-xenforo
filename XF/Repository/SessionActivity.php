@@ -2,7 +2,7 @@
 
 class SessionActivity extends XFCP_SessionActivity
 {
-	public function getOnlineStatsBlockData($forceIncludeVisitor = true, $userLimit, $staffQuery = false)
+	public function getOnlineStatsBlockData($forceIncludeVisitor, $userLimit, $staffQuery = false)
 	{
 		if (!\XF::visitor()->canViewStaffOnline())
 		{
