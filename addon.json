@@ -2,15 +2,15 @@
     "legacy_addon_id": "",
     "title": "View Staff Online",
     "description": "Add a permission setting to control who can view the Staff Online widget",
-    "version_id": 1000170,
-    "version_string": "1.0.1",
+    "version_id": 1000270,
+    "version_string": "1.0.2",
     "dev": "Simon Hampel",
     "dev_url": "https://xenforo.com/community/members/sim.4264/",
     "faq_url": "",
-    "support_url": "https://bitbucket.org/hampel/view-staff-online-xenforo/issues",
+    "support_url": "https://xenforo.com/community/threads/view-staff-online.182805/",
     "extra_urls": {
-        "Git Repository": "https://bitbucket.org/hampel/view-staff-online-xenforo",
-        "Twitter": "https://twitter.com/SimonHampel"
+        "Addon": "https://xenforo.com/community/resources/view-staff-online.7905/",
+        "Git Repository": "https://github.com/hampel/view-staff-online-xenforo"
     },
     "require": [],
     "icon": "fa-user-check"
